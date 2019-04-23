@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Une forma</h1>
+<form action="/hello" method="POST">
+  A greeting:<input name="greet" type="text"/>
+  <br/>
+  A name:<input name="name" type="text"/>
+  <input type="submit"/>
+</form>
+{% endblock %}
